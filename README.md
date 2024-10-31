@@ -1,4 +1,4 @@
-#Welcome to our Usable AI Course!
+# Welcome to our Usable AI Course!
 
 This course provides an in-depth introduction to Usable Artificial Inteligence, emphasizing practical skills and real-world applications. You’ll learn to implement essential AI techniques across various fields, using Python and popular libraries to enhance your ability to analyze, optimize, and communicate data-driven insights in areas like social science, sustainability, health, and design.
 
@@ -6,13 +6,13 @@ As AI becomes increasingly more integrated in our data workflows, understanding 
 
 This course is heavily based on Prof. Patrick C. Shih Usable AI course.
 
-##Course Context
+## Course Context
 
 In the last decade, data generated from the Internet, sensors, wearables, and online communities has exploded, creating immense opportunities to empirically study social, behavioral, and environmental phenomena. This course will equip you with the AI tools needed to work with “big social data” and beyond, enabling you to derive insights from complex datasets.
 
 Our interdisciplinary approach spans AI applications to real-world issues in behavioral research, health, environmental studies, and design. Alongside other quantitative methods, you will briefly engage with LLMs to explore how they can complement traditional data analysis and presentation methods.
 
-##Objectives
+## Objectives
 
 By the end of this course, you will be able to:
  - Develop foundational knowledge in AI and machine learning for real-world data analysis.
@@ -30,7 +30,7 @@ By the end of this course, you will be able to:
 You will showcase your learned skills by undertaking a semester-long project. This project will require detailed documentation of each step involved in its development, from initial concept to final execution.
 
 
-##Course Organization
+## Course Organization
 
 This course combines lectures, hands-on exercises, and a team-based project. Lectures introduce key AI methods, including an introduction to LLMs for specific applications. In labs, you’ll receive guidance on data analysis and gain experience with a range of AI tools.
 
