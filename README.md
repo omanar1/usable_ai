@@ -136,13 +136,13 @@ The course is divided into several modules, each covering a different aspect of 
 
 8. **Classification and clustering**: Supervised and unsupervised learning. Classification and clustering algorithms. Logistic regression, decision trees, random forests, neural networks, and k-means clustering.
 
-9. **Feature Selection and Explanabiliy**: Feature selection, extraction, boosting, and model interpretability. Explanability via SHAP.
+9. **Feature Selection and Explainability**: Feature selection, extraction, boosting, and model interpretability. Explainability via SHAP.
 
 10. **Natural Language Processing**: Introduction to NLP, text processing, tokenization, sentiment analysis, topic extraction, and introduction to neural network models.
 
-11. **Artificial Intelligence and Large Language Models (LLMs)**: Introduction to LLMs, their applications, and how to use them for various tasks. (Final project)
+11. **Artificial Intelligence and embeddings**: Introduction to artificial neural networks and embedding representation. (Final project)
 
-12. **Using Large Language Models (optional)**: Using LLMs for various tasks, such as summarization, text generation, and question-answering. Covers API-based models and local models, transformers, prompt engineering, and fine-tuning.
+12. **Using Large Language Models (LLMs) (optional)**: Introduction to LLMs for various tasks, such as summarization, text generation, and question-answering. Covers API-based models and local models, transformers, prompt engineering, fine-tuning and RAG.
 
 Some modules may be subject to change based on the course progress and feedback from students. We will keep you updated on any changes.
 
