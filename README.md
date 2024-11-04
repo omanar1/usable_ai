@@ -19,12 +19,12 @@ By the end of this course, you will be able to:
  - Utilize Python libraries such as scikit-learn for machine learning, Pandas and NumPy for data handling, and Matplotlib and others for visualization.
  - Prepare and manipulate basic data types, including numerical, categorical, and textual data, to make datasets ready for analysis.
  - Analyze data using exploratory visualization techniques to identify patterns, trends, and insights.
- - Perform advanced data cleaning and transformation, including merging, reshaping, and aggregating datasets.
+ - Perform data cleaning and transformation, including merging, reshaping, and aggregating datasets.
  - Apply essential machine learning models for tasks like classification, clustering, and regression using scikit-learn.
  - Understand and apply basic feature engineering techniques, such as dimensionality reduction, to enhance model performance.
- - Habe a basic knowledge of deep learning architectures and basic embedding/vectorial representations of data.
+ - Have a basic knowledge of deep learning architectures and basic embedding/vectorial representations of data.
  - Explore fundamental NLP techniques using libraries like NLTK and spaCy to work with textual data.
- - use large language models (LLMs) for general machine learning tasks using using local or API-based models.
+ - Use large language models (LLMs) for general machine learning tasks using local or API-based models. (optional modules)
 
 
 You will showcase your learned skills by undertaking a semester-long project. This project will require detailed documentation of each step involved in its development, from initial concept to final execution.
@@ -49,18 +49,34 @@ Each week, we'll explore different topics in Machine Learning and Artificial Int
 Here's a tentative outline of the course for Spring 2025:
 
 ### Grades
-You will be evaluated based on performance in participation, attendance, assignments, final project and the final exam. The final grade will be calculated as follows:
+You will be evaluated based on performance in assignments and final project. The final grade will be calculated as follows:
 
- - 10% - Participation and activities online 
- - 20% - Assignments
+ - 30% - Assignments
+ - 35% - Midterm project
  - 35% - Final project
- - 35% - Final exam
 
-Some assignments may give bonus points for the final grade. Extra credits will be given based on engagement in class and offline, such as asking questions, helping others, and contributing to the course materials.
+An extra 10% will be given for active participation on online discussions, such as github contributions, slack discussions, asking questions, helping others, and contributing to the course materials
+
+Grades will not be curved and will be based on the following scale:
+
+```
+93.00 - 100% = A
+90.00 - 92.99% = A-
+87.00 - 89.99% = B+
+83.00 - 86.99% = B
+80.00 - 82.99% = B-
+77.00 - 79.99% = C+
+73.00 - 76.99% = C
+70.00 - 72.99% = C-
+67.00 - 69.99% = D+
+63.00 - 66.99% = D
+60.00 - 62.99% = D-
+<60.00 = F
+```
 
 ### Communication
 
-We will use Canvas and GitHub for all course materials, assignments, and for the final project. Slack will be used for communication, discussions, and to provide feedback on assignments and projects. We encourage you to actively participate in discussions, ask questions, and share your thoughts and ideas. Please be respectful and considerate of others' opinions and ideas, also do not post your personal information or sensitive data in the Slack channel.
+We will use Canvas and GitHub for all course materials, assignments, and for the projects. Slack will be used for communication, discussions, and to provide feedback on assignments and projects. We encourage you to actively participate in discussions, ask questions, and share your thoughts and ideas. Please be respectful and considerate of others' opinions and ideas, also do not post your personal information or sensitive data in the Slack channel.
 
 Slack Channel for the course: [TBD]
 
@@ -69,7 +85,7 @@ Canvas and Email also work for communication but with a certain delay. We encour
 If you have suggestions, criticism or feedback on improving the course, please feel free to share them with us. You can use Slack or use the anonymous feedback form: [TBD].
 
 ## Course project
-You can choose your own project topic (individually or as a team), but it is recommended to discuss your choice with the instructor first. For the project, you will need to submit a final report detailing your findings and explaining your approach to creating them. Throughout the course, you will work on a group project, which involves researching, designing, analyzing, and visualizing data sets related to a chosen problem area.
+You can choose your own project topic (individually or as a team), but it is recommended to discuss your choice with the instructor first. For the project, you will need to submit a final report detailing your findings and explaining your approach to creating them. Throughout the course, you will work on a group project, which involves researching, designing, analyzing, and using machine learning pipelines on data sets related to a chosen problem area.
 
 A timeline for each project stage will be provided, as the project requires both designing and executing data collection and analysis. Given this fast-paced schedule, each phase has only a few weeks allocated, so careful time management is essential.
 
@@ -77,31 +93,10 @@ A timeline for each project stage will be provided, as the project requires both
 
 No textbook is required; all essential materials are covered in lectures. Here are some highly recommended books and resources on Machine learning and general artificial intelligence Python:
 
-1. Müller, A. C., & Guido, S. (2016). Introduction to Machine Learning with Python: A Guide for Data Scientists. O’Reilly Media, Inc.
+Müller, A. C., & Guido, S. (2016). Introduction to Machine Learning with Python: A Guide for Data Scientists. O’Reilly Media, Inc.
  - Raschka, S. (2019). Python Machine Learning. Packt Publishing Ltd.
  - Richert, W. (2018). Building Machine Learning Systems with Python. Packt Publishing Ltd.
  - Hugging Face documentation on LLMs for those interested in exploring these tools further
-
-2. **The Visual Display of Quantitative Information (2nd ed.) by E.R. Tufte**: A classic book on data visualization principles and techniques.
-
-3. **"Python Data Science Handbook" by Jake VanderPlas**: A comprehensive guide to using Python for data analysis, manipulation, and visualization.
-
-4. **D3 Tips and Tricks v7.x by Malcolm Maclean**. https://leanpub.com/d3-t-and-t-v7 (Free online book, or pay what you want)
-
-5. **D3 Tutorial updated by Danny Yang** (forked from Square's original tutorial): Online tutorial on d3.js.
- https://yangdanny97.github.io/blog/2022/08/07/d3-resources
-
-6. **"Data Science from Scratch" by Joel Grus**: A great introduction to Data Science fundamentals using Python.
-
-7. **"Python for Data Analysis"** by Wes McKinney (the creator of pandas): A practical guide to using Python for data analysis, manipulation, and visualization.
-
-8. **"Introduction to Machine Learning with Python" by Andreas C. Müller & Sarah Guido**: A practical approach to learning machine learning with Python.
-
-9. **Kaggle**: Participate in competitions or explore datasets for practical experience. (https://www.kaggle.com)
-
-10. **Awesome Public Datasets**: For a huge list of public datasets for practice and projects (https://github.com/awesomedata/awesome-public-datasets)
-
-11. **[Visual Complexity: Mapping patterns of information by Manuel Lima](https://www.amazon.com/Visual-Complexity-Mapping-Patterns-Information/dp/1568989369/refsr_1_1?s=books&ie=UTF8&qid=1318466736&sr1-1)**: A book on the visualization of complex networks and systems.
 
 Wait for more resources to be added to this list or suggest your own!
 
@@ -116,14 +111,47 @@ Here's what you can find in our repository:
 - **Datasets**: A collection of datasets used in our materials, including links to Kaggle datasets for hands-on practice.
 - **Additional Resources**: Links to further reading and external resources.
 
+The course videos will be shared on Canvas.
+
 Most of these materials will be available when the course starts.
+
+### Course Modules
+The course is divided into several modules, each covering a different aspect of AI and machine learning. Here's an overview of the modules we'll cover:
+
+0. **Course Introduction and Setup**: Introduction to the course, setting up your environment, and getting started with Python and Jupyter Notebooks.
+
+1. **Python Basics 1**: Introduction to Python, basic syntax, loops, conditional statements, and functions.
+
+2. **Python Basics 2**: Data types, classes, dealing with lists, dictionaries and sets.
+
+3. **Data management**: Introduction to databases, tables, queries, and matrix representation via numpy.
+
+4. **Pandas and Visualization**: Introduction to the Pandas library for data manipulation and analysis. Visualization with Matplotlib and other libraries.
+
+5. **Introduction to Machine Learning**: Overview of machine learning. Terminology, types of learning, basic algorithms and introduction to scikit-learn. (Midterm project)
+
+6. **Preprocessing and Evaluation**: Data preprocessing, model evaluation, cross-validation, and hyperparameter tuning.
+
+7. **Regressions**: Basics and advanced regression models.
+
+8. **Classification and clustering**: Supervised and unsupervised learning. Classification and clustering algorithms. Logistic regression, decision trees, random forests, neural networks, and k-means clustering.
+
+9. **Feature Selection and Explanabiliy**: Feature selection, extraction, boosting, and model interpretability. Explanability via SHAP.
+
+10. **Natural Language Processing**: Introduction to NLP, text processing, tokenization, sentiment analysis, topic extraction, and introduction to neural network models.
+
+11. **Artificial Intelligence and Large Language Models (LLMs)**: Introduction to LLMs, their applications, and how to use them for various tasks. (Final project)
+
+12. **Using Large Language Models (optional)**: Using LLMs for various tasks, such as summarization, text generation, and question-answering. Covers API-based models and local models, transformers, prompt engineering, and fine-tuning.
+
+Some modules may be subject to change based on the course progress and feedback from students. We will keep you updated on any changes.
 
 ### Getting Started With the Course
 
-To get started, please ensure you have set up your environment as described in the next sections. We encourage you to explore the materials, complete the assignments, and actively participate in discussions using Slack. If you have any questions or need help, feel free to ask the instructor or your peers. We're here to help you succeed in your Data Science journey!
+To get started, please ensure you have set up your environment as described in the next sections. We encourage you to explore the materials, complete the assignments, and actively participate in discussions using Slack. If you have any questions or need help, feel free to ask the instructor or your peers. We're here to help you succeed in your AI journey!
 
 
-## Setting Up Your Data Visualization Environment
+## Setting Up Your Usable AI Environment
 
 We suggest using miniconda to install python packages and setup your environment. You can also use Anaconda, but it is a larger package and may take longer to install. Alternatively, you can also setup your own python environment using pip and virtualenv.
 
@@ -188,14 +216,14 @@ Make sure everything is installed correctly:
 
 
 
-## Basic GitHub Usage for the Data Visualization Course  (for submitting assignments)
+## Basic GitHub Usage for the Usable Artificial Intelligence Course
 
 ### Step 1: Fork the Course Repository
 
-"Forking" means creating a personal copy of someone else's project. To fork the `filipinascimento/datascience` repository:
+"Forking" means creating a personal copy of someone else's project. To fork the `filipinascimento/usable_ai` repository:
 
 1. **Navigate to the Repository**:
-   - Go to the [filipinascimento/datascience](https://github.com/filipinascimento/datascience) repository on GitHub.
+   - Go to the [filipinascimento/usable_ai](https://github.com/filipinascimento/usable_ai) repository on GitHub.
 
 2. **Fork the Repository**:
    - Click on the "Fork" button at the top right corner of the page.
@@ -214,7 +242,7 @@ After forking, you'll want to clone the repository to work on it locally:
 The Issues tab in GitHub is used to track ideas, enhancements, tasks, or bugs:
 
 1. **Navigate to Issues**:
-   - In the original `filipinascimento/datascience` repository, go to the "Issues" tab.
+   - In the original `filipinascimento/usable_ai` repository, go to the "Issues" tab.
 
 2. **Create a New Issue**:
    - Click on "New Issue".
@@ -237,7 +265,7 @@ Submit your completed assignments as Pull Requests:
    - Push your changes to your forked repository using `git push`.
 
 4. **Create a Pull Request**:
-   - Go to the original `filipinascimento/datascience` repository.
+   - Go to the original `filipinascimento/usable_ai` repository.
    - Click on "Pull Requests" and then "New Pull Request".
    - Choose your forked repository as the source.
    - Add a title and description for your PR.
@@ -248,7 +276,7 @@ Submit your completed assignments as Pull Requests:
 Ensure your fork is up to date with the main repository:
 
 1. **Configure a Remote for the Fork**:
-   - Run `git remote add upstream https://github.com/filipinascimento/datascience.git`.
+   - Run `git remote add upstream https://github.com/filipinascimento/usable_ai.git`.
 
 2. **Sync Your Fork**:
    - Fetch the changes with `git fetch upstream`.
