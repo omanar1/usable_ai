@@ -1,0 +1,136 @@
+# Copyright (c) 2016-2022 Martin Donath <martin.donath@squidfunk.com>
+
+# Project information
+site_name: Usable AI
+site_url: https://github.com/filipinascimento/usable_ai
+site_author: Filipi Nascimento Silva
+site_description:
+
+# Repository
+repo_name: filipinascimento/usable_ai
+repo_url: https://github.com/filipinascimento/usable_ai
+edit_uri: ''
+
+
+# Markdown extensions
+markdown_extensions:
+  - attr_list
+  - admonition
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      # custom_fences:
+      # - name: javascript-exec
+      #   class: javascript-exec
+      #   format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist
+  - pymdownx.tabbed
+
+# Extra javascript
+extra_javascript:
+#   - https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/codemirror.min.js
+#   - https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/mode/javascript/javascript.min.js
+#   - https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/addon/edit/closebrackets.min.js
+#   - playground.js  # Your custom script for playground functionality
+#   # - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# extra_css:
+#   - https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/codemirror.min.css
+#   - https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.13/theme/material.min.css
+#   - playground.css  # Optional: custom styling for the playground
+# extra_css:
+#   - javascriptexec.css
+
+# Theme
+theme:
+  name: material
+  language: en
+  logo: images/dv.png
+  favicon: images/dv.png
+  custom_dir: overrides
+  features:
+    - navigation.instant
+    - navigation.top
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+  palette:
+    # Light mode
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: white
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: black
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yy
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/yyahn/
+    - icon: fontawesome/solid/globe
+      link: https://yongyeol.com/
+
+# Plugins
+plugins:
+  - mkdocs-jupyter:
+      include_source: True
+      execute: False 
+      kernel_name: python3
+  - search
+
+# hooks:
+#   - docs/hooks.py
+
+# TOC
+nav:
+    - index.md
+    - communication.md
+    - "Module 0 - Setup":
+        - m00-setup/class.md
+        - m00-setup/terminal_basics.md
+        - m00-setup/git_basics.md
+        - m00-setup/jupyter_basics.md
+        - m00-setup/vscode_basics.md
+    - Module 1 - Python Basics 1: m01-python_basics1/python_basics1.ipynb
+    - Module 2 - Python Basics 2: m02-python_basics2/python_basics2.ipynb
+
+    # - "Module 1 - Python basics":
+    #     - m01-python_basics/python_basics.ipynb
+
+
+    # - "W2: Recap of Fundamentals":
+    #     - w02-recap_setup/class.md
+    #     - w02-recap_setup/assignment_w2_sol.ipynb
+
+    # - "W3: Principles of Data Visualization":
+    #     - w03-principles/class.md
+    #     - w03-principles/why_visualization.ipynb
+    #     - w03-principles/assignment_w3_perception.ipynb
+
+
+
+
+
+
+
+
+
