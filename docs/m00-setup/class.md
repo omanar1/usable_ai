@@ -73,19 +73,19 @@ We suggest using [Miniforge](https://conda-forge.org/download/) or [Miniconda](h
 ### Step 1: Install Miniforge
 Miniforge is a minimal installer for Conda, a package manager and an environment manager. Here's how to install it:
 
-1. **Download MiniForge**:
-    - Visit the [Miniconda download page](https://conda-forge.org/download/).
+1. **Download Miniforge**:
+    - Visit the [Miniforge download page](https://conda-forge.org/download/).
     - Choose the version suitable for your operating system (Windows, macOS, or Linux).
     - Download the appropriate installer.
 
-2. **Install Miniconda**:
+2. **Install Miniforge**:
     - **Windows**: Run the downloaded `.exe` file and follow the on-screen instructions.
     - **macOS/Linux**: Open a terminal, navigate to the folder containing the downloaded file, and run `bash Miniforge3-MacOSX-arm64.sh` (adjust the filename as needed).
 
 3. **Verify the Installation**:
     - Open a new terminal window.
         - On Windows, you can look for the Miniforge Prompt.
-    - Type `conda list`. If Miniconda is installed correctly, you'll see a list of installed packages.
+    - Type `conda list`. If Miniforge is installed correctly, you'll see a list of installed packages.
 
 ### Step 2: Create a Conda Environment
 Creating a separate environment for your Data Science projects is good practice:
