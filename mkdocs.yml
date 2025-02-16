@@ -111,8 +111,10 @@ nav:
         - m00-setup/jupyter_basics.md
         - m00-setup/vscode_basics.md
         - m00-setup/google_colab.ipynb
-    - Module 1 - Python Basics 1: m01-python_basics1/python_basics1.ipynb
-    - Module 2 - Python Basics 2: m02-python_basics2/python_basics2.ipynb
+    - "Module 1 - Python Basics 1": m01-python_basics1/python_basics1.ipynb
+    - "Module 2 - Python Basics 2": 
+        - m02-python_basics2/python_basics2.ipynb
+        - m02-python_basics2/assigment_m02.ipynb
 
     # - "Module 1 - Python basics":
     #     - m01-python_basics/python_basics.ipynb

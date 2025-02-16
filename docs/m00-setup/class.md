@@ -11,11 +11,11 @@ If you are unfamiliar with the terminal or Git, or if you would like to refresh 
 
 ## Tutorials:
 
-- [Terminal Basics](m00-setup/terminal_basics.md)
-- [Git Basics](m00-setup/git_basics.md)
-- [Jupyter Basics](m00-setup/jupyter_basics.md)
-- [VSCode Basics](m00-setup/vscode_basics.md)
-- [Google Colab Basics](m00-setup/google_colab_basics.md)
+- [Terminal Basics](terminal_basics)
+- [Git Basics](git_basics)
+- [Jupyter Basics](jupyter_basics.md)
+- [VSCode Basics](vscode_basics.md)
+- [Google Colab Basics](google_colab_basics.md)
 
 ## Cloning the repository
 Github is a platform where you can store your code and collaborate with others. Git is a version control system that allows you to track changes in your code. If something goes wrong, you can always revert to a previous version.
