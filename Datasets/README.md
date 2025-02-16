@@ -1,6 +1,9 @@
 Datasets collected from Kaggle
 
- - Solar System major bodies data
+- [Stories](https://www.kaggle.com/datasets/jaredsavage/solar-system-major-bodies-data)
+    - `sol_data.json`
+
+ <!-- - Solar System major bodies data
     - `sol_data.json`
     - Link: https://www.kaggle.com/datasets/jaredsavage/solar-system-major-bodies-data
 
@@ -34,4 +37,4 @@ Datasets collected from Kaggle
 
 - Anscombe's Quartet
     - `Anscombe_quartet_data.csv`
-    - Link: https://www.kaggle.com/datasets/carlmcbrideellis/data-anscombes-quartet
+    - Link: https://www.kaggle.com/datasets/carlmcbrideellis/data-anscombes-quartet -->

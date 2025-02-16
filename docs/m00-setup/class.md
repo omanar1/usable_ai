@@ -11,11 +11,11 @@ If you are unfamiliar with the terminal or Git, or if you would like to refresh 
 
 ## Tutorials:
 
-- [Terminal Basics](m00-setup/terminal_basics.md)
-- [Git Basics](m00-setup/git_basics.md)
-- [Jupyter Basics](m00-setup/jupyter_basics.md)
-- [VSCode Basics](m00-setup/vscode_basics.md)
-- [Google Colab Basics](m00-setup/google_colab_basics.md)
+- [Terminal Basics](terminal_basics)
+- [Git Basics](git_basics)
+- [Jupyter Basics](jupyter_basics.md)
+- [VSCode Basics](vscode_basics.md)
+- [Google Colab Basics](google_colab_basics.md)
 
 ## Cloning the repository
 Github is a platform where you can store your code and collaborate with others. Git is a version control system that allows you to track changes in your code. If something goes wrong, you can always revert to a previous version.
@@ -73,19 +73,19 @@ We suggest using [Miniforge](https://conda-forge.org/download/) or [Miniconda](h
 ### Step 1: Install Miniforge
 Miniforge is a minimal installer for Conda, a package manager and an environment manager. Here's how to install it:
 
-1. **Download MiniForge**:
-    - Visit the [Miniconda download page](https://conda-forge.org/download/).
+1. **Download Miniforge**:
+    - Visit the [Miniforge download page](https://conda-forge.org/download/).
     - Choose the version suitable for your operating system (Windows, macOS, or Linux).
     - Download the appropriate installer.
 
-2. **Install Miniconda**:
+2. **Install Miniforge**:
     - **Windows**: Run the downloaded `.exe` file and follow the on-screen instructions.
     - **macOS/Linux**: Open a terminal, navigate to the folder containing the downloaded file, and run `bash Miniforge3-MacOSX-arm64.sh` (adjust the filename as needed).
 
 3. **Verify the Installation**:
     - Open a new terminal window.
         - On Windows, you can look for the Miniforge Prompt.
-    - Type `conda list`. If Miniconda is installed correctly, you'll see a list of installed packages.
+    - Type `conda list`. If Miniforge is installed correctly, you'll see a list of installed packages.
 
 ### Step 2: Create a Conda Environment
 Creating a separate environment for your Data Science projects is good practice:
