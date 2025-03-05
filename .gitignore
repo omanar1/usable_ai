@@ -1,5 +1,5 @@
 # Ignore SQL
-./Database/fifa_soccer_dataset.sqlite
+Database/fifa_soccer_dataset.sqlite
 
 # LaTeX
 *.aux
