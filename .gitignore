@@ -2,8 +2,7 @@
 Database/fifa_soccer_dataset.sqlite
 
 # HW5
-Datasets/BenignTraffic.csv
-Datasets/DDoS-ACK_Fragmentation.csv
+Datasets/weather.csv
 
 # LaTeX
 *.aux
