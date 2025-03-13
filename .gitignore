@@ -1,6 +1,10 @@
 # Ignore SQL
 Database/fifa_soccer_dataset.sqlite
 
+# HW5
+Datasets/BenignTraffic.csv
+Datasets/DDoS-ACK_Fragmentation.csv
+
 # LaTeX
 *.aux
 *.bbl
