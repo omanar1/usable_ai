@@ -3,6 +3,7 @@ Database/fifa_soccer_dataset.sqlite
 
 # HW5
 Datasets/weather.csv
+Datasets/weather.json
 
 # LaTeX
 *.aux
